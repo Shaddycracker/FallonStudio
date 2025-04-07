@@ -51,6 +51,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
                     deleteCookie("token")
                 }
             } catch (error) {
+                console.log(error)
                 setIsAuthenticated(false)
                 deleteCookie("token")
             } finally {
