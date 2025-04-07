@@ -27,6 +27,7 @@ const LoginForm = () => {
 
     // Clear error when user types
     if (error) {
+      console.log(error)
       setError(null)
     }
   }
@@ -58,6 +59,7 @@ const LoginForm = () => {
       login(token)
       router.push("/admin")
     } catch (error) {
+      console.log(error)
       setError("Invalid username or password")
     } finally {
       setLoading(false)
