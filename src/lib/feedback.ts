@@ -19,7 +19,7 @@ export async function getAllFeedback(): Promise<Feedback[]> {
     return []
   }
 
-  return data as Feedback[]
+  return data as Feedbanck[]
 }
 
 export async function createFeedback(input: Omit<Feedback, "id" | "timestamp">): Promise<Feedback | null> {

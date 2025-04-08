@@ -2,6 +2,13 @@
 
 ## Getting Started Fallon assignment Feed Back system
 
+## Admin Info
+```bash
+
+username : root
+password : 1234
+```
+
 First, run the development server:
 
 ```bash
