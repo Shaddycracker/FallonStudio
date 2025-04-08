@@ -1,5 +1,5 @@
 import { Box, Typography, Container } from "@mui/material"
-
+import Link from "next/link"
 const Footer = () => {
   const currentYear = new Date().getFullYear()
 
@@ -19,8 +19,12 @@ const Footer = () => {
           © {currentYear} Feedback Collector App
         </Typography>
         <Typography variant="body2" color="text.secondary" align="center" sx={{ mt: 1 }}>
-          Created by Your Name - Submission for Feedback Collector Project
+          Created by Shadab Ali  - Submission for Feedback Collector Project
         </Typography>
+          <Link href="https://github.com/shadabali-git">github Account Official </Link>
+          <Link href="https://github.com/Shaddycracker">github Account Unofficial </Link>
+          <Link href="https://github.com/Shaddycracker/FallonStudio"> Project Repo </Link>
+          <Link href="https://fallon.netlify.app"> Netlify Deployed Link </Link>
       </Container>
     </Box>
   )
